@@ -21,7 +21,7 @@ const io = new Server(server, {
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:3000", credentials: true }));
+app.use(cors({ origin: "https://kabilan-0809.github.io/chat-application/", credentials: true }));
 app.use(
   session({
     secret: process.env.JWT_SECRET,
